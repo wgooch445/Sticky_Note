@@ -5,7 +5,7 @@ const notesContainer = document.getElementById('notes-container');
 // function to create new note
 function addNote() {
   const note = document.createElement('div');
-  note.classlist.add('note');
+  note.classList.add('note');
   note.textContent = 'new sticky note';
   const rotation = Math.random() * 10 - 5;
   note.style.setProperty('--rotation', `${rotation}deg`);
