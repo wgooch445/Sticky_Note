@@ -9,7 +9,7 @@ function addNote() {
   note.textContent = 'new sticky note';
   const rotation = Math.random() * 10 - 5;
   note.style.setProperty('--rotation', `${rotation}deg`);
-  notescontainer.appendChild(note);
+  notesContainer.appendChild(note);
 }
 
 // click listener for add new note
