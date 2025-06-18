@@ -1,10 +1,10 @@
 // references to the html elements
 const addNoteButton = document.getElementById('add-note-button');
-const notesContainer = document.getElementById('notes-container')
+const notesContainer = document.getElementById('notes-container');
 
-//function to create new note
+// function to create new note
 function addNote() {
-  const note = document.createElemnt('div');
+  const note = document.createElement('div');
   note.classlist.add('note');
   note.textContent = 'new sticky note';
   const rotation = Math.random() * 10 - 5;
