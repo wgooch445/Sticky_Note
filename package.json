@@ -1,0 +1,23 @@
+{
+  "name": "sticky_note",
+  "version": "1.0.0",
+  "description": "Sticky_note Tool",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wgooch445/Sticky_Note.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wgooch445/Sticky_Note/issues"
+  },
+  "homepage": "https://github.com/wgooch445/Sticky_Note#readme",
+  "devDependencies": {
+    "electron": "^37.0.0"
+  }
+}
