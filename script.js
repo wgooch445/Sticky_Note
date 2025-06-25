@@ -15,7 +15,7 @@ function addNote() {
 
   deleteButton.addEventListener('click'), () => {
     notesContainer.removeChild(note);
-  });
+  };
 
   note.appendChild(deleteButton); // adding delete button inside note
   notesContainer.appendChild(note);
