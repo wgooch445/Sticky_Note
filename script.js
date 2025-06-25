@@ -12,6 +12,8 @@ function addNote() {
   note.style.setProperty('--rotation', `${rotation}deg`);
   const deleteButton = document.createElement('button');
   deleteButton.textContent = 'X';
+  deleteButton.contentEditable = false; // makes delete button not editable
+  deleteButton.classList.add('delete-button');
 
   deleteButton.addEventListener('click', () => {
     notesContainer.removeChild(note);
