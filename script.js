@@ -13,7 +13,7 @@ function addNote() {
   const deleteButton = document.createElement('button');
   deleteButton.textContent = 'X';
 
-  deleteButton.addEventListener('click'), () => {
+  deleteButton.addEventListener('click', () =>) {
     notesContainer.removeChild(note);
   };
 
